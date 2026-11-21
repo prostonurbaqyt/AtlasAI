@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#101416">
+<title>Atlas Intelligence</title>
+<meta name="description" content="Atlas Intelligence — ваш интеллектуальный AI-помощник">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+<symbol id="i-logo" viewBox="0 0 24 24"><path d="M12 3 3.5 20h4l1.4-3h6.2l1.4 3h4L12 3Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9.8 13h4.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h10M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i-send" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12M9 7V4h6v3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M5 15V6a2 2 0 0 1 2-2h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m16 16 4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+<symbol id="i-chat" viewBox="0 0 24 24"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+<symbol id="i-code" viewBox="0 0 24 24"><path d="m8 8-5 4 5 4M16 8l5 4-5 4M14 5l-4 14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4 6h.01M4 12h.01M4 18h.01" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5v-15ZM4 20.5A2.5 2.5 0 0 0 6.5 23H20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+<symbol id="i-clip" viewBox="0 0 24 24"><path d="m20 11-8.5 8.5a5 5 0 0 1-7-7L13 4a3.3 3.3 0 0 1 4.7 4.7L9.2 17.2a1.7 1.7 0 0 1-2.4-2.4L14.5 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-down" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</defs>
+</svg>
+
+<div class="glow glow--a"></div>
+<div class="glow glow--b"></div>
+
+<div class="app">
+<div class="overlay" id="overlay"></div>
+<aside class="sidebar" id="sidebar">
+<div class="sidebar__head">
+<a class="brand" href="#"><span class="brand__mark"><svg><use href="#i-logo"/></svg></span><span class="brand__name">Atlas Intelligence</span></a>
+<button class="icon-btn only-mobile" id="close-sidebar" aria-label="Закрыть меню"><svg><use href="#i-x"/></svg></button>
+</div>
+<button class="new-chat" id="new-chat"><svg><use href="#i-plus"/></svg>Новый чат</button>
+<label class="search"><svg><use href="#i-search"/></svg><input id="search" type="search" placeholder="Поиск по чатам"></label>
+<nav class="history"><ul id="chat-list"></ul></nav>
+<div class="sidebar__foot">
+<button class="link-btn" id="clear-all"><svg><use href="#i-trash"/></svg>Очистить историю</button>
+<div class="profile"><span class="profile__ava">А</span><div><b>Мой аккаунт</b><small>Atlas Intelligence</small></div></div>
+</div>
+</aside>
+
+<main class="main">
+<header class="topbar">
+<button class="icon-btn only-mobile" id="open-sidebar" aria-label="Открыть меню"><svg><use href="#i-menu"/></svg></button>
+<div class="model">
+<select id="model-select" aria-label="Модель">
+<option>Atlas 1 · быстрая</option>
+<option>Atlas Pro · точная</option>
+<option>Atlas Creative · идеи</option>
+</select>
+<svg><use href="#i-chev"/></svg>
+</div>
+<span class="status"><i></i>В сети</span>
+</header>
+
+<section class="chat" id="chat">
+<div class="welcome" id="welcome">
+<div class="orb"><svg><use href="#i-logo"/></svg></div>
+<h1>Чем помочь сегодня?</h1>
+<p>Atlas Intelligence помогает писать тексты, разбирать код, строить планы и объяснять сложное простым языком.</p>
+<div class="cards">
+<button class="card" data-prompt="Объясни, как работает нейросеть, простыми словами"><span class="card__ico"><svg><use href="#i-book"/></svg></span><b>Объяснить тему</b><small>Как работает нейросеть</small></button>
+<button class="card" data-prompt="Напиши функцию на JavaScript, которая убирает дубликаты из массива"><span class="card__ico"><svg><use href="#i-code"/></svg></span><b>Написать код</b><small>Дубликаты в массиве на JS</small></button>
+<button class="card" data-prompt="Составь план подготовки к собеседованию на 7 дней"><span class="card__ico"><svg><use href="#i-list"/></svg></span><b>Составить план</b><small>Собеседование за 7 дней</small></button>
+<button class="card" data-prompt="Придумай 10 названий для приложения по медитации"><span class="card__ico"><svg><use href="#i-bulb"/></svg></span><b>Придумать идеи</b><small>Названия для приложения</small></button>
+</div>
+</div>
+<div class="messages" id="messages"></div>
+</section>
+
+<button class="scroll-down" id="scroll-down" aria-label="Вниз" hidden><svg><use href="#i-down"/></svg></button>
+<footer class="composer">
+<form class="box" id="chat-form" autocomplete="off">
+<button type="button" class="icon-btn" aria-label="Прикрепить файл"><svg><use href="#i-clip"/></svg></button>
+<textarea id="message-input" rows="1" maxlength="4000" placeholder="Напишите сообщение для Atlas Intelligence…" aria-label="Сообщение"></textarea>
+<button class="send" id="send-btn" type="submit" aria-label="Отправить" disabled><svg><use href="#i-send"/></svg></button>
+</form>
+<p class="hint">Atlas Intelligence может ошибаться. Проверяйте важную информацию.</p>
+</footer>
+</main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
